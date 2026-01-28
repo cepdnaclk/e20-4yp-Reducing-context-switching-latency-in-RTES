@@ -9,18 +9,18 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Reduce Context Switching Latency in Real Time Embedded Systems By Register File Partitioning
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/20/032, A.M.N.C. Bandara, [email](mailto:e20032@email.com)
+- E/20/157, S.M.B.G. Janakantha, [email](mailto:e20157@email.com)
+- E/20/254, S.K.P. Methpura, [email](mailto:e20254@email.com)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Prof. Roshan G. Ragel, [email](mailto:roshanr@eng.pdn.ac.lk)
+- Dr. Isuru Nawinne, [email](mailto:isurunawinne@eng.pdn.ac.lk)
 
 #### Table of content
 
