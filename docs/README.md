@@ -9,7 +9,7 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Reduce Context Switching Latency in Real Time Embedded Systems By Register File Partitioning
+# Reduce Context Switching Latency in Real Time Embedded Systems Using Register File Partitioning
 
 #### Team
 
