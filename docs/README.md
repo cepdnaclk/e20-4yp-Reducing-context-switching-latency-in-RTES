@@ -53,27 +53,7 @@ Recent literature identifies a research gap in *static partitioning* schemes for
 
 The research follows a four-phase methodology aligned with computer architecture evaluation best practices:
 
-1. **Partitioning Scheme Design**:  
-   - Divide the 32-register RV32I register file into three partitions:  
-     • **Global partition** (x0–x7): Shared across all tasks (system registers)  
-     • **Partition A** (x8–x15): Dedicated to high-priority real-time task A  
-     • **Partition B** (x16–x23): Dedicated to high-priority real-time task B  
-     • **Spill partition** (x24–x31): Used for conventional save/restore of non-critical tasks  
-   - Implement partition boundaries via two lightweight CSRs (`part_base`, `part_mask`) controlling register access permissions per task context
-
-2. **Hardware Modification**:  
-   - Augment Spike simulator's register access logic with partition-aware decode stage  
-   - Add CSR instructions (`csrrw`, `csrrs`) for partition configuration without modifying base integer ISA  
-   - Preserve all existing RISC-V exception/interrupt mechanisms—partitioning operates orthogonally to privilege levels
-
-3. **Workload Development**:  
-   - Create RTOS microbenchmarks simulating:  
-     • Periodic interrupt-driven task switches (1–100 μs periods)  
-     • Mixed-criticality workloads (partitioned high-priority + non-partitioned background tasks)  
-     • Register pressure variations (light: 4 registers, heavy: 16 registers per task)  
-   - Baseline: FreeRTOS context switch implementation for RV32IMC
-
-4. **Evaluation Metrics**:  
+1. **Evaluation Metrics**:  
    - Primary: Context switch latency (cycles) measured via `rdcycle` CSR  
    - Secondary: Area overhead (estimated via RTL gate count), energy per switch (via McPAT), determinism (latency variance across 10,000 switches)
 
