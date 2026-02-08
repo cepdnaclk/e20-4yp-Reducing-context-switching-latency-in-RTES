@@ -148,7 +148,7 @@ exit
 
 ---
 
-## 🐳 1.11 Essential Docker Commands Cheat Sheet
+## 🐳 Essential Docker Commands Cheat Sheet
 
 | Task | Command | Description |
 |------|---------|-------------|
