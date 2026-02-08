@@ -1,4 +1,5 @@
 {
+    "title": "Reduceing context switching latency in RTES",
     "team": [
         {
             "name": "A.M.N.C. Bandara",
@@ -37,5 +38,5 @@
             "url": "#"
         }
     ],
-    "tags": ["Final Year Projects"]
+    "tags": ["Final Year Projects", "Embedded Systems", "ESCAL"]
 }
