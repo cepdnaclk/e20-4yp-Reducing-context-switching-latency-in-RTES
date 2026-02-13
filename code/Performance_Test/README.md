@@ -161,6 +161,7 @@ exit
 | **Remove image** | `docker rmi riscv-32bit-env:v1` | Delete unused image |
 | **View logs** | `docker logs RFP_PMT` | See container output after exit |
 | **Re-enter container** | `docker start -ai RFP_PMT` | Restart and attach to existing container |
+| **Re-enter running container** | `docker attach RFP_PMT` | Attach to a running container |
 | **Clean unused resources** | `docker system prune -a` | ⚠️ Removes ALL stopped containers, unused images, networks |
 
 ---
